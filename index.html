@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Bautizo | Jibrann Aco Martínez</title>
+
+    <meta
+        name="description"
+        content="Invitación al Bautizo de Jibrann Aco Martínez">
+
+    <meta
+        name="theme-color"
+        content="#d4af37">
+
+    <link
+        rel="icon"
+        href="images/favicon.png">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <!--==================================================
+    MÚSICA
+    ==================================================-->
+
+    <audio
+        id="musica"
+        loop
+        preload="auto">
+
+        <source
+            src="audio/musica.mp3"
+            type="audio/mpeg">
+
+    </audio>
+
+    <!--==================================================
+    LOADER
+    ==================================================-->
+
+    <div id="loader">
+
+        <div class="loader-contenido">
+
+            <img
+                src="images/cruz-dorada.webp"
+                alt="">
+
+            <h2>
+
+                Mi Bautizo
+
+            </h2>
+
+            <span>
+
+                Preparando la invitación...
+
+            </span>
+
+        </div>
+
+    </div>
+
+    <!--==================================================
+    PARTÍCULAS
+    ==================================================-->
+
+    <div class="particulas"></div>
+
+    <!--==================================================
+    INTRO
+    ==================================================-->
+
+    <section id="intro">
+
+        <img
+            src="images/fondo-portada.webp"
+            class="intro-fondo"
+            alt="">
+
+        <div class="intro-overlay"></div>
+
+        <div class="intro-luz"></div>
+
+        <img
+            src="images/particulas-doradas.webp"
+            class="intro-particulas"
+            alt="">
+
+        <div class="intro-centro">
+
+            <p class="intro-texto">
+
+                ✨ Toca el sello para abrir la invitación ✨
+
+            </p>
+
+            <div class="escena-sobre">
+
+            <!--==============================
+            SOBRE
+            ==============================-->
+
+            <div class="sobre-contenedor">
+
+                <!-- Luz inferior -->
+
+                <div class="sobre-luz"></div>
+
+                <!-- Sobre abierto (parte trasera) -->
+
+                <img
+                    src="images/sobre-abierto.webp"
+                    alt=""
+                    class="sobre-abierto">
+
+                <!--==================================================
+                CONTENEDOR QUE OCULTA LA CARTA
+                TODO LO QUE SOBREPASE ESTE DIV
+                QUEDA RECORTADO
+                ==================================================-->
+
+                <div class="contenedor-carta">
+
+                    <img
+                        src="images/carta-portada.png"
+                        alt="Carta"
+                        class="carta">
+
+                </div>
+
+                <!-- Bolsillo frontal -->
+
+                <img
+                    src="images/sobre-bolsillo.png"
+                    alt=""
+                    class="sobre-bolsillo">
+
+                <!-- Sobre cerrado -->
+
+                <img
+                    src="images/sobre-cerrado.webp"
+                    alt=""
+                    class="sobre-cerrado">
+
+                <!--==============================
+                SELLO
+                ==============================-->
+
+                <img
+                    src="images/sello-cera.webp"
+                    alt="Abrir invitación"
+                    id="sello">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--==================================================
+    INVITACIÓN
+    ==================================================-->
+
+    <main
+        id="invitacion">
+
+        <!--==================================================
+        FONDO
+        ==================================================-->
+
+        <img
+            src="images/fondo-principal.webp"
+            class="fondo-principal"
+            alt="">
+
+        <div class="fondo-degradado"></div>
+
+        <!--==================================================
+        PORTADA
+        ==================================================-->
+
+        <section class="hero">
+
+            <div class="hero-brillo"></div>
+
+            <img
+                src="images/paloma.webp"
+                class="paloma"
+                alt="">
+
+            <div class="hero-contenido">
+
+                
+                <span class="hero-subtitulo">
+
+                    MI BAUTIZO
+
+                </span>
+
+                <h1>
+
+                    Jibrann
+
+                </h1>
+
+                <h2>
+
+                    Aco Martínez
+
+                </h2>
+
+                <img
+                    src="images/separador.webp"
+                    class="hero-separador"
+                    alt="">
+
+                <p class="hero-fecha">
+
+                    25 DE JULIO DE 2026
+
+                </p>
+
+                <!--========================================
+                FOTO DEL BEBÉ
+                Se mezclará con el fondo mediante CSS
+                =========================================-->
+
+                <div class="foto-contenedor">
+
+                    <div class="foto-luz"></div>
+
+                    <img
+                        src="images/jibrann.webp"
+                        class="foto-jibrann"
+                        alt="Jibrann">
+
+                    <div class="foto-niebla"></div>
+
+                </div>
+
+                <p class="hero-bienvenida">
+
+                    Con inmensa alegría en nuestros corazones,
+                    queremos compartir con ustedes un día lleno de
+                    fe, amor y bendiciones, en el que nuestro
+                    pequeño <strong>Jibrann</strong> recibirá el
+                    sacramento del bautismo, iniciando su camino de
+                    la mano de Dios.
+
+                </p>
+
+                <div class="scroll-indicador">
+
+                    <span>
+
+                        Desliza
+
+                    </span>
+
+                    <div class="mouse">
+
+                        <div class="rueda"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--========================================
+        VERSÍCULO
+        =========================================-->
+
+        <section
+            class="versiculo reveal">
+
+            <div class="contenedor">
+
+                <img
+                    src="images/cruz-dorada.webp"
+                    class="titulo-cruz"
+                    alt="">
+
+                <h3>
+
+                    Un día lleno de bendiciones
+
+                </h3>
+
+                <blockquote>
+
+                    “Dejen que los niños vengan a mí y no se lo impidan,
+                    porque el Reino de Dios pertenece a quienes son como ellos.”
+
+                </blockquote>
+
+                <span>
+
+                    Marcos 10:14
+
+                </span>
+
+            </div>
+
+        </section>
+
+        <!--========================================
+        CUENTA REGRESIVA
+        =========================================-->
+
+        <section
+            class="countdown reveal">
+
+            <div class="contenedor">
+
+                <h3>
+
+                    Cuenta Regresiva
+
+                </h3>
+
+                <p class="descripcion">
+
+                    Estamos contando los días para celebrar este
+                    momento tan especial junto a ustedes.
+
+                </p>
+
+                <div class="contador">
+
+                    <div class="tiempo">
+
+                        <span id="dias">
+
+                            000
+
+                        </span>
+
+                        <small>
+
+                            Días
+
+                        </small>
+
+                    </div>
+
+                    <div class="tiempo">
+
+                        <span id="horas">
+
+                            00
+
+                        </span>
+
+                        <small>
+
+                            Horas
+
+                        </small>
+
+                    </div>
+
+                    <div class="tiempo">
+
+                        <span id="minutos">
+
+                            00
+
+                        </span>
+
+                        <small>
+
+                            Minutos
+
+                        </small>
+
+                    </div>
+
+                    <div class="tiempo">
+
+                        <span id="segundos">
+
+                            00
+
+                        </span>
+
+                        <small>
+
+                            Segundos
+
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--========================================
+        PAPÁS
+        =========================================-->
+
+        <section
+            class="papas reveal">
+
+            <div class="contenedor">
+
+                <h3>
+
+                    Mis Papás
+
+                </h3>
+
+                <p class="descripcion">
+
+                    Desde el primer instante en que llegué a sus vidas,
+                    me han rodeado de amor, cuidado y ternura.
+                    Hoy, con inmensa felicidad, me acompañan a recibir
+                    el sacramento del bautismo, dando el primer paso
+                    en mi camino de fe.
+
+                </p>
+
+                <div class="personas">
+
+                    <article class="persona">
+
+                        <span>
+
+                            Papá
+
+                        </span>
+
+                        <h4>
+
+                            Tomás Aco Ramírez
+
+                        </h4>
+
+                    </article>
+
+                    <article class="persona">
+
+                        <span>
+
+                            Mamá
+
+                        </span>
+
+                        <h4>
+
+                            Alin Martínez Mendoza
+
+                        </h4>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--========================================
+        PADRINOS
+        =========================================-->
+
+        <section
+            class="padrinos reveal">
+
+            <div class="contenedor">
+
+                <h3>
+
+                    Mis Padrinos
+
+                </h3>
+
+                <p class="descripcion">
+
+                    Hoy reciben con amor la hermosa misión de
+                    acompañarme en mi crecimiento espiritual.
+                    Su presencia, ejemplo y cariño serán un apoyo
+                    invaluable a lo largo de mi vida.
+
+                </p>
+
+                <div class="personas">
+
+                    <article class="persona">
+
+                        <span>
+
+                            Padrino
+
+                        </span>
+
+                        <h4>
+
+                            Raúl Israel Acosta García
+
+                        </h4>
+
+                    </article>
+
+                    <article class="persona">
+
+                        <span>
+
+                            Madrina
+
+                        </span>
+
+                        <h4>
+
+                            Nadia Iveth Santos Soberanes
+
+                        </h4>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--========================================
+        ITINERARIO
+        =========================================-->
+
+        <section
+            class="itinerario reveal">
+
+            <div class="contenedor">
+
+                <h3>
+
+                    Celebremos Juntos
+
+                </h3>
+
+                <p class="descripcion">
+
+                    Nos llenará de alegría compartir contigo
+                    cada momento de este día tan especial.
+
+                </p>
+
+                <div class="eventos">
+
+                    <!-- CEREMONIA -->
+
+                    <article class="evento">
+
+                        <div class="numero">
+
+                            01
+
+                        </div>
+
+                        <img
+                            src="images/icono-iglesia.webp"
+                            class="icono-evento"
+                            alt="">
+
+                        <span>
+
+                            Ceremonia Religiosa
+
+                        </span>
+
+                        <h4>
+
+                            Purísima Concepción
+
+                        </h4>
+
+                        <p class="hora">
+
+                            4:00 PM
+
+                        </p>
+
+                        <a
+                            href="https://maps.app.goo.gl/xDf5ga2rk4mvgvaQ7?g_st=ic"
+                            target="_blank"
+                            class="boton-mapa">
+
+                            Ver ubicación
+
+                        </a>
+
+                    </article>
+
+                    <!-- RECEPCIÓN -->
+
+                    <article class="evento">
+
+                        <div class="numero">
+
+                            02
+
+                        </div>
+
+                        <img
+                            src="images/icono-recepcion.webp"
+                            class="icono-evento"
+                            alt="">
+
+                        <span>
+
+                            Recepción
+
+                        </span>
+
+                        <h4>
+
+                            Quinta del Sol
+
+                        </h4>
+
+                        <p class="hora">
+
+                            5:00 PM
+
+                        </p>
+
+                        <a
+                            href="https://maps.app.goo.gl/sTWDSnXBtyeyu7xJ9?g_st=ic"
+                            target="_blank"
+                            class="boton-mapa">
+
+                            Ver ubicación
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--========================================
+        DESPEDIDA
+        =========================================-->
+
+        <section
+            class="despedida reveal">
+
+            <div class="contenedor">
+
+                <div class="despedida-card">
+
+                    <img
+                        src="images/cruz-dorada.webp"
+                        class="despedida-cruz"
+                        alt="">
+
+                    <h2>
+
+                        Gracias por acompañarnos
+
+                    </h2>
+
+                    <img
+                        src="images/separador.webp"
+                        class="despedida-separador"
+                        alt="">
+
+                    <p>
+
+                        Su presencia será el regalo más valioso para
+                        nuestra familia.
+
+                    </p>
+
+                    <p>
+
+                        Gracias por acompañarnos en este día tan
+                        especial y por compartir con nosotros la
+                        alegría de ver a Jibrann recibir la bendición
+                        de Dios.
+
+                    </p>
+
+                    <h3>
+
+                        ¡Los esperamos con mucho cariño!
+
+                    </h3>
+
+                </div>
+
+                <img
+                    src="images/ramas-inferiores.webp"
+                    class="rama-inferior"
+                    alt="">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--========================================
+    BOTÓN DE MÚSICA
+    =========================================-->
+
+    <button
+        id="botonMusica"
+        class="boton-musica"
+        aria-label="Controlar música">
+
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="22"
+            height="22"
+            fill="currentColor">
+
+            <path d="M12 3v10.55A4 4 0 1 0 14 17V7h6V3z"/>
+
+        </svg>
+
+    </button>
+
+    <!--========================================
+    BOTÓN VOLVER ARRIBA
+    =========================================-->
+
+    <button
+        id="volverArriba"
+        class="volver-arriba"
+        aria-label="Volver arriba">
+
+        ↑
+
+    </button>
+
+    <!--========================================
+    SCRIPT
+    =========================================-->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
