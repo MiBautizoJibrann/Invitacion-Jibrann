@@ -971,24 +971,6 @@ FOTO DEL BEBÉ
 
 /* La foto se funde con las nubes */
 
-.foto-niebla{
-
-    position:absolute;
-
-    left:0;
-
-    right:0;
-
-    bottom:-5px;
-
-    height:180px;
-
-    z-index:3;
-
-    display:none;
-
-}
-
 .hero-bienvenida{
 
     max-width:760px;
