@@ -985,19 +985,7 @@ FOTO DEL BEBÉ
 
     z-index:3;
 
-    background:
-
-        linear-gradient(
-
-            rgba(248,245,239,0),
-
-            rgba(248,245,239,.28),
-
-            rgba(248,245,239,.72),
-
-            rgba(248,245,239,1)
-
-        );
+    display:none;
 
 }
 
